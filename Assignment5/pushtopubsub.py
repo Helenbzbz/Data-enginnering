@@ -5,7 +5,7 @@
 # I keep those 3 variable as text strings
 import calendar
 import time
-f = open('index.txt')
+f = open('Assignment5/index.txt')
 order_id = int(f.readlines()[0])
 
 def writemessage ():
@@ -18,6 +18,8 @@ def writemessage ():
 
 
 ### Python code push message to the topic
+import os
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]='Assignment5/serviceaccount.json'
 from google.cloud import pubsub_v1
 
 project_id = "assignment-module-5"
