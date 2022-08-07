@@ -1,7 +1,7 @@
 import datetime, json, os, random, time
 
 # change project-id to your actual project id from GCP
-project = 'neworder-pipeline-270104'
+project = 'data-pipeline-assignment'
 
 CITIES = ['Chciago', 'Springfield', 'New York', 'Boston',]
 FIRST_NAMES = ['Tom', 'Randy', 'Peter', 'Karl', 'Patricia', 'Kathy', 'Cindy', 'Melia','Noel',]
