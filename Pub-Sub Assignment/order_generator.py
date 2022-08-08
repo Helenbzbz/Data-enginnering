@@ -21,7 +21,7 @@ while True:
               'amount': float(random.randrange(5000, 7000)) / 100,
       }
       message = json.dumps(data)
-      command = "gcloud --project={} pubsub topics publish neworder --message='{}'".format(project, message)
+      command = "gcloud --project={} pubsub topics publish orderreceiver --message='{}'".format(project, message)
       print(command)
       os.system(command)
       time.sleep(random.randrange(1, 5))
