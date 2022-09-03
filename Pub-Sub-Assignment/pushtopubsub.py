@@ -1,11 +1,10 @@
 ### Python code generate orders and messages
 # I keep a record of order id as write it to a file index.txt
 # And then Increase the order by 1 each time and rewrite
-# I don't know what's exact item number, item quantity, or order total
-# I keep those 3 variable as text strings
+
 import calendar
 import time
-f = open('Assignment5/index.txt')
+f = open('Pub-Sub-Assignment/index.txt')
 order_id = int(f.readlines()[0])
 
 def writemessage ():
