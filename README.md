@@ -1,5 +1,5 @@
 # Northwestern-Data-Engineering-Class
-This is a summer Non-major Master level course taken in Northwestern University.
+This is a summer Non-major Master level course taken in Northwestern University. <br>
 GPA: 4.0/4.0
 
 ## Theories: 
@@ -24,3 +24,9 @@ GPA: 4.0/4.0
 * Unix
 
 ## Final Project:
+The objective of this project is to Build a data streaming processing framework that can:
+✍️ Generates and pushes json order and review data continously to cloud storage pub/sub topic based on the csv file we have locally
+🧜🏻‍♂️ After being pushed to Pub/Sub topic, new data will go through Dataflow and saved automatically into Big Query Table
+🧞‍♀️ Brings in other datasets existed in the Big Query Table and joins the new data through SQL
+🧝‍♀️ Generates different dashboards for different departments
+See: 
