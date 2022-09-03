@@ -28,5 +28,5 @@ The objective of this project is to Build a data streaming processing framework 
 * ✍️ Generates and pushes json order and review data continously to cloud storage pub/sub topic based on the csv file we have locally
 * 🧜🏻‍♂️ After being pushed to Pub/Sub topic, new data will go through Dataflow and saved automatically into Big Query Table
 * 🧞‍♀️ Brings in other datasets existed in the Big Query Table and joins the new data through SQL
-* 🧝‍♀️ Generates different dashboards for different departments
+* 🧝‍♀️ Generates different dashboards for different departments <br>
 See: https://github.com/Helenbzbz/Northwestern-Data-Engineering-Class/tree/main/Data%20Engineering%20Final%20Project
