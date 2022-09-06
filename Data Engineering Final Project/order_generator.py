@@ -21,8 +21,8 @@ def datamerger():
                 
     return dic_final
 
-project_id = "optical-torch-360720"
-topic_name = "order_receiver"
+project_id = ""
+topic_name = ""
 
 orders = datamerger()
 ids = list(orders.keys())

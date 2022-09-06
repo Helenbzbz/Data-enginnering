@@ -21,8 +21,8 @@ import os
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"]='Assignment5/serviceaccount.json'
 from google.cloud import pubsub_v1
 
-project_id = "assignment-module-5"
-topic_id = "assignment5"
+project_id = ""
+topic_id = ""
 
 publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(project_id, topic_id)
